@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servic Hogar</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/app.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-50 text-gray-800">
+    <!-- HEADER / HERO -->
+    <header
+      class="relative bg-gradient-to-br from-blue-700 via-blue-600 to-indigo-700 text-white overflow-hidden"
+    >
+      <!-- decoraciones -->
+      <div
+        class="absolute top-0 left-0 w-72 h-72 bg-blue-400 rounded-full blur-3xl opacity-30"
+      ></div>
+      <div
+        class="absolute bottom-0 right-0 w-72 h-72 bg-indigo-400 rounded-full blur-3xl opacity-30"
+      ></div>
+
+      <!-- NAV -->
+      <nav
+        class="relative max-w-6xl mx-auto flex justify-between items-center p-6"
+      >
+        <h1 class="text-2xl font-bold">ServicHogar</h1>
+        <button
+          class="bg-white text-blue-700 px-5 py-2 rounded-xl font-semibold shadow hover:scale-105 transition"
+        >
+          Contactar
+        </button>
+      </nav>
+
+      <!-- HERO -->
+      <section class="relative text-center px-6 pb-20 pt-10">
+        <h2 class="text-4xl md:text-6xl font-extrabold mb-6 leading-tight">
+          Reparación Rápida <br />
+          y Confiable
+        </h2>
+
+        <p class="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-blue-100">
+          Especialistas en electrodomésticos con atención inmediata y garantía
+          real.
+        </p>
+
+        <div class="flex flex-col md:flex-row justify-center gap-4">
+          <button
+            class="bg-white text-blue-700 px-8 py-3 rounded-xl font-semibold shadow-lg hover:scale-105 transition"
+          >
+            Solicitar servicio
+          </button>
+
+          <button
+            class="border border-white px-8 py-3 rounded-xl hover:bg-white hover:text-blue-700 transition"
+          >
+            Ver servicios
+          </button>
+        </div>
+
+        <p class="mt-6 text-sm text-blue-200">Disponible 24/7 🚀</p>
+      </section>
+    </header>
+
+    <!-- SERVICIOS -->
+    <section class="py-20 bg-gray-50">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold">Nuestros Servicios</h2>
+        <p class="text-gray-500">Soluciones profesionales</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
+        <article
+          class="bg-white p-8 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300"
+        >
+          <div class="text-4xl mb-4">🧺</div>
+          <h3 class="text-xl font-bold mb-2">Lavadoras</h3>
+          <p class="text-gray-600 mb-4">Reparación completa</p>
+          <ul class="text-gray-500 space-y-1 text-sm">
+            <li>✔ No centrifuga</li>
+            <li>✔ No desagua</li>
+            <li>✔ Ruidos extraños</li>
+          </ul>
+        </article>
+
+        <article
+          class="bg-white p-8 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300"
+        >
+          <div class="text-4xl mb-4">❄️</div>
+          <h3 class="text-xl font-bold">Neveras</h3>
+          <p class="text-gray-600">Refrigeración profesional</p>
+        </article>
+
+        <article
+          class="bg-white p-8 rounded-2xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition duration-300"
+        >
+          <div class="text-4xl mb-4">🔥</div>
+          <h3 class="text-xl font-bold">Calentadores</h3>
+          <p class="text-gray-600">Instalación y mantenimiento</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- POR QUE ELEGIRNOS -->
+    <section class="py-20">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-bold">¿Por qué elegirnos?</h2>
+        <p class="text-gray-500">La confianza nos respalda</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto px-6">
+        <article
+          class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
+        >
+          <h3 class="font-semibold text-lg">Servicio a domicilio</h3>
+          <p class="text-gray-600">Vamos hasta tu casa</p>
+        </article>
+
+        <article
+          class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
+        >
+          <h3 class="font-semibold text-lg">Técnicos certificados</h3>
+          <p class="text-gray-600">Expertos calificados</p>
+        </article>
+
+        <article
+          class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
+        >
+          <h3 class="font-semibold text-lg">Presupuesto gratis</h3>
+          <p class="text-gray-600">Sin compromiso</p>
+        </article>
+
+        <article
+          class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition"
+        >
+          <h3 class="font-semibold text-lg">Atención personalizada</h3>
+          <p class="text-gray-600">Seguimiento completo</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="py-20 bg-gray-100">
+      <div class="text-center mb-10">
+        <h2 class="text-4xl font-bold">Contáctanos</h2>
+        <p class="text-gray-500">Respuesta inmediata</p>
+      </div>
+
+      <section id="contacto" class="py-16 bg-gray-100 flex justify-center">
+  
+  <div class="w-full max-w-xl bg-white p-8 rounded-2xl shadow-xl">
+    
+    <h2 class="text-3xl font-bold text-center mb-6 text-gray-800">
+      Agenda tu servicio
+    </h2>
+
+    <form id="serviceForm" class="space-y-4">
+
+      <!-- Nombre -->
+      <input 
+        type="text" 
+        id="name" 
+        placeholder="Nombre completo" 
+        required
+        class="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
+      >
+
+      <!-- Teléfono -->
+      <input 
+        type="tel" 
+        id="phone" 
+        placeholder="Teléfono" 
+        required
+        class="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
+      >
+
+      <!-- Select -->
+      <select 
+        id="device" 
+        required
+        class="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none bg-white"
+      >
+        <option value="">Seleccione su equipo</option>
+        <option>Linea Blanca</option>
+        <option>Neveras</option>
+        <option>Nevecones</option>
+        <option>Neveras Comerciales</option>
+        <option>Cuartos Fríos</option>
+        <option>Lavadoras</option>
+        <option>Secadoras</option>
+      </select>
+
+      <!-- Mensaje -->
+      <textarea 
+        id="problem" 
+        rows="4" 
+        placeholder="Cuéntanos qué falla tiene tu equipo y qué necesitas cotizar."
+        class="w-full border border-gray-300 p-3 rounded-lg focus:ring-2 focus:ring-blue-500 outline-none"
+      ></textarea>
+
+      <!-- Botón -->
+      <button 
+        type="submit" 
+        class="w-full bg-green-500 text-white py-3 rounded-lg font-semibold hover:bg-green-600 transition duration-300"
+      >
+        Enviar a WhatsApp
+      </button>
+
+    </form>
+  </div>
+
+</section>
+
+        <!-- INFO -->
+        <div class="space-y-6">
+          <div class="bg-white p-4 rounded-xl shadow">
+            <h3 class="font-semibold">Teléfono</h3>
+            <p class="text-gray-600">+34 900 123 456</p>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl shadow">
+            <h3 class="font-semibold">Email</h3>
+            <p class="text-gray-600">info@reparatodo.com</p>
+          </div>
+
+          <div class="bg-white p-4 rounded-xl shadow">
+            <h3 class="font-semibold">Ubicación</h3>
+            <p class="text-gray-600">Toda la ciudad</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOTONES FLOTANTES -->
+    <div class="floating-socials">
+      <a
+        href="https://wa.me/573204382791"
+        target="_blank"
+        class="social-btn whatsapp"
+        aria-label="WhatsApp"
+      >
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/733/733585.png"
+          alt="WhatsApp"
+        />
+      </a>
+
+      <a
+        href="https://www.facebook.com/people/Servic-Hogar/pfbid02WxcdWkYuBr8auEtpMD5PxVHnNE5rQbhsdzVct1k7hMkLk8pmhaaWLb3rsEhmDGPBl/?rdid=QJV7Q0pFGoiEbHMU&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1FMfnRVXjr%2F"
+        target="_blank"
+        class="social-btn facebook"
+        aria-label="Facebook"
+      >
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+          alt="Facebook"
+        />
+      </a>
+
+      <a
+        href="https://www.instagram.com/"
+        target="_blank"
+        class="social-btn instagram"
+        aria-label="Instagram"
+      >
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+          alt="Instagram"
+        />
+      </a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-white py-10">
+      <div class="grid md:grid-cols-4 gap-6 max-w-6xl mx-auto px-6">
+        <div>
+          <h3 class="font-bold mb-2">ReparaTodo</h3>
+          <p class="text-gray-400">Tu solución confiable</p>
+        </div>
+
+        <div>
+          <h3 class="font-bold mb-2">Servicios</h3>
+          <ul class="text-gray-400 space-y-1">
+            <li>Lavadoras</li>
+            <li>Neveras</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold mb-2">Enlaces</h3>
+          <ul class="text-gray-400 space-y-1">
+            <li>Servicios</li>
+            <li>Contacto</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="font-bold mb-2">Contacto</h3>
+          <ul class="text-gray-400 space-y-1">
+            <li>Teléfono</li>
+            <li>Email</li>
+          </ul>
+        </div>
+      </div>
+
+      <p class="text-center text-gray-500 mt-6">© 2026 ReparaTodo</p>
+    </footer>
+  </body>
+</html>
